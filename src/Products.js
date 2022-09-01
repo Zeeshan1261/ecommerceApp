@@ -11,15 +11,8 @@ function Products() {
 
 const[cart,setCart] = useState([items])
 return( 
-    <>  <h1 className="h1">E commerce-Store</h1>   
-    {cart.map((data)=> {
-      return(
-        <div> 
-          <h1>{data.id}</h1>       
-          <button onClick={()=> {console.log(data)}}>Cart</button>
-        </div>       
-      )
-    })}
+    <> <button>Cart</button>  
+     <h1 className="h1">E commerce-Store</h1>   
     {items.map((lists)=> {
         return(  
  <div>
